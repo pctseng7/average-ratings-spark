@@ -57,4 +57,4 @@ I put MovieLen datasets and two of my python code inside the Spark Folder. As yo
 
 ## License
 
-This project is licensed under the course project of INF553 at USC 
+This repository is credited to the course project of INF553 at USC 
