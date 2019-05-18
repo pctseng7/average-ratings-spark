@@ -4,7 +4,7 @@ Data Mining for average movie/tag ratings
 
 ## Getting Started
 
-Follow the instructions will get you familiar with how to do data mining on large datasets. The open source datasets can be reached in the [MovieLens | GroupLens](https://grouplens.org/datasets/movielens/). In this repository, I use the MovieLens 20M Dataset and MovieLens Latest Datasets for implementation. Both datasets provide movieID and the rating record for each single movie. Each movie can also be categortized by tags. The goal is to find average ratings via Spark(PySpark) for movieID and tag, separately.
+Follow the instructions will get you familiar with how to do data mining on large datasets. The open source datasets can be reached in the [MovieLens | GroupLens](https://grouplens.org/datasets/movielens/). In this repository, use the MovieLens 20M Dataset and MovieLens Latest Datasets for implementation. Both datasets provide movieID and the rating record for each single movie. Each movie can also be categortized by tags. The goal is to find average ratings via Spark(PySpark) for movieID and tag, separately.
 
 ## Data Mining
 
@@ -14,7 +14,7 @@ Follow the instructions will get you familiar with how to do data mining on larg
 
 ## How to run my program
 
-I put MovieLen datasets and two of my python code inside the Spark Folder. As you can see the path in the code. (For example: "ml-latest-small/ratings.csv") The program will read the file when we use “sc.textFile”. If you want to test the different task, you can just simply change the path to “ml-20m/ratings.csv”.
+Put MovieLen datasets and two of python scripts inside the Spark Folder. As the relative code path is defined (For example: "ml-latest-small/ratings.csv"), the program will read the file when we use “sc.textFile”. If you want to test different task, just simply change the path to “ml-20m/ratings.csv”.
 
 ### Before testing
 
